@@ -18,6 +18,7 @@ There are several types of keys used for modeling databases
 + Super: Any set of attributes used to uniquely identify a row
 + Composite: A key composed of more than one attribute
 + Candidate: Set of attributes that uniquely identify rows in a table
++ Surrogate: Keys created by the DBMS and not releated to the data. Also called synthetic key
 + Minimal: Among all candidate keys, those with minimal cardinality
 + Primary: It's a choosen candidate key, ideally minimal. Used to ensure entity integrity
 + Foreign: It's a key used in a child's table to create a relation with a parent's table. Used to ensure referencial integrity
