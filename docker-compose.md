@@ -27,11 +27,11 @@ services:
       - app-net
     volumes:
       - type: bind
-        source: 
+        source:
     environment:
       - DATABASE=todolist
       - USER=u5erN4m3
-      - PASSWORD=p455w0rd    
+      - PASSWORD=p455w0rd
     secrets:
         - db-secrets
         - source: root-secrets
