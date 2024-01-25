@@ -1,3 +1,12 @@
+- [Meaningful names](#meaningful-names)
+- [Functions](#functions)
+  - [Niladic functions](#niladic-functions)
+  - [Monadic functions](#monadic-functions)
+  - [Dyadic arguments](#dyadic-arguments)
+- [Comments](#comments)
+  - [Good comments](#good-comments)
+  - [Bad comments](#bad-comments)
+
 # Meaningful names
 
 1. Don't use single-letter names.
@@ -64,4 +73,22 @@ assert_expected_equals_actual(expected, actual)
 
 this avoid checking function definition.
 
+# Comments
 
+Avoid comments always. Code needs to be refactor in order to work, but comments don't therefore it's probably that most of the comments are out of date. Even for disciplined programmers it's better to spend time refactoring code and **explain yourself in code** than refactoring comments.
+
+## Good comments
+
+1. Legal comments referencing external documents about terms and conditions.
+2. Explaining regex.
+3. Warning of consequences such as dangerous code, or long runs.
+4. TODO comments for future refactoring or something imposible TODO at the moment.
+
+## Bad comments
+
+1. Redundant.
+2. Position markers with many to split code.
+3. Comments that can be replaced by code.
+4. Author.
+5. Commented-out code.
+6. Large comments.
