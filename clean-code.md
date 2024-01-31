@@ -6,6 +6,7 @@
 - [Comments](#comments)
   - [Good comments](#good-comments)
   - [Bad comments](#bad-comments)
+- [Formating code](#formating-code)
 
 # Meaningful names
 
@@ -92,3 +93,14 @@ Avoid comments always. Code needs to be refactor in order to work, but comments 
 4. Author.
 5. Commented-out code.
 6. Large comments.
+
+# Formating code
+
+1. Vertical blocks of code show relation, releated code should be vertically close, to avoid moving around code
+2. Variables declarations close to their usage
+3. Functions vertically close to other related functions
+4. Important concepts should come first and details at the end
+5. Separate functions parameters
+6. Accentuate the precedence of operators
+7. Don't align variables declarations, this might mean that a block of code do more than it should
+8. Use team rules
