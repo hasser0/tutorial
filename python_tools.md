@@ -40,20 +40,25 @@ jupyter kernelspec remove <env-name>
 
 | Tool                | Tool type                   | Configuration file        |
 |:-------------------:|:----------------------------|:--------------------------|
+| jupyterlab          | notebook server             |                           |
+| ipython             | interactive python console  |                           |
 | pyenv               | environment/version manager |                           |
 | pipx                | isolated tool installer     |                           |
 | pip                 | package manager             |                           |
-| jupyterlab          | notebook server             |                           |
-| ipython             | interactive python console  |                           |
-| cookiecutter        | project template creator    |                           |
 | isort               | import sort                 | pyproject.toml, isort.cfg |
 | ruff                | linter/formatter            | pyproject.toml, ruff.toml |
 | black               | formatter                   | pyproject.toml            |
 | pydocstyle          | docstring style             | pyproject.toml            |
-| pyright             | static type checker         | pyproject.toml            |
 | precommit           | pre commit hooks            | .pre-commit-config.yaml   |
+| pytest              | run tests                   |                           |
+
+Other mentions
+| Tool                | Tool type                   | Configuration file        |
+|:-------------------:|:----------------------------|:--------------------------|
 | flake8 (deprecated) | linter                      | .flake8                   |
 | pylint (deprecated) | linter                      | .pylintrc                 |
+| pyright             | static type checker         | pyproject.toml            |
+| cookiecutter        | project template creator    |                           |
 
 
 # Annotations
